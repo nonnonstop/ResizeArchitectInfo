@@ -5,15 +5,17 @@ namespace ResizeArchitectInfo
 {
     public class MyModSettings : ModSettings
     {
-        public float width = 200f;
+        public const float DefaultWidth = 200f;
+        public const float DefaultHeight = 270f;
+        public float width = DefaultWidth;
         public string widthBuf;
-        public float height = 270f;
+        public float height = DefaultHeight;
         public string heightBuf;
 
         public override void ExposeData()
         {
-            Scribe_Values.Look(ref width, "width", 200f);
-            Scribe_Values.Look(ref height, "height", 270f);
+            Scribe_Values.Look(ref width, "width", DefaultWidth);
+            Scribe_Values.Look(ref height, "height", DefaultHeight);
             base.ExposeData();
         }
 

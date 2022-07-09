@@ -11,9 +11,9 @@ namespace ResizeArchitectInfo
         public static void Postfix(ref Rect __result)
         {
             var settings = LoadedModManager.GetMod<MyMod>().GetSettings<MyModSettings>();
-            __result.y += 270f - settings.height;
-            __result.width += settings.width - 200f;
-            __result.height += settings.height - 270f;
+            __result.y += MyModSettings.DefaultHeight - settings.height;
+            __result.width = settings.width;
+            __result.height = settings.height;
         }
     }
 }

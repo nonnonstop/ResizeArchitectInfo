@@ -1,0 +1,2 @@
+# ResizeArchitectInfo
+RimWorld MOD

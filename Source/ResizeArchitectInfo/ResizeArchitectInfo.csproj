@@ -8,7 +8,7 @@
       <HintPath>/mnt/e/SteamLibrary/steamapps/common/RimWorld/Mods/2009463077/Current/Assemblies/0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>//mnt/e/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed/Assembly-CSharp.dll</HintPath>
+      <HintPath>/mnt/e/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed/Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>/mnt/e/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
